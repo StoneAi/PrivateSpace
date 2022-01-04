@@ -6,3 +6,19 @@
 //
 
 import Foundation
+
+
+protocol STVCProtocol {
+    func setupData() //获取数据
+    func setupUI()  //添加视图控件
+    func addConstraints()   //添加约束
+    func bindViewModel()    //绑定viewmodel
+    func eventInit()    //事件
+}
+
+protocol STViewProtocol {
+    func refreshUI() //获取数据
+    func setupUI()  //添加视图控件
+    func addConstraints()   //添加约束
+    func eventInit()    //事件
+}

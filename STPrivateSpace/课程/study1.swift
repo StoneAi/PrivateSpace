@@ -149,6 +149,9 @@ extension study1:STVCProtocol {
             }
         }
         //-------------------------------- 重写闭包，对所有奇数返回 0。
+        
+
+        
         let numbers = [1,3,4,5,6,7,8,9]
         let newNums = numbers.map({
             (number : Int) -> Int in
@@ -159,8 +162,6 @@ extension study1:STVCProtocol {
             }
         })
         print("newNumbs \(newNums)")
-        
-        
     }
 }
 
@@ -175,12 +176,23 @@ extension study1 {
         return y
     }
     
+    func numberMap(_ block: (Int)->(Int)) -> [Int] {
+        var arr = [Int]()
+        let numbs = [1,2,3,4,5]
+        for item in numbs {
+            arr.append(block(item))
+        }
+        return arr
+    }
+    
     func makeIncrementer() -> ((Int) -> (Int)) {
         func addOne(number:Int) -> Int {
             return 1 + number
         }
         return addOne
     }
+    
+
     
     func hasAnyMatchhes(list:[Int], condition: (Int) -> (Bool)) -> Bool {
         for item in list {

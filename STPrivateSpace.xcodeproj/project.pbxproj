@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E60D82E276C722E006B0C67 /* study3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E60D82D276C722E006B0C67 /* study3.swift */; };
+		8E61E85127671DA8008E567D /* study2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E61E85027671DA8008E567D /* study2.swift */; };
+		8E6246B62761DE5500F89044 /* CurryingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6246B52761DE5500F89044 /* CurryingVC.swift */; };
+		8E6246B92761DF5D00F89044 /* STProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6246B82761DF5D00F89044 /* STProtocols.swift */; };
+		8E6246BB2761E9DD00F89044 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6246BA2761E9DD00F89044 /* View.swift */; };
+		8E6246BD2761EF0100F89044 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6246BC2761EF0100F89044 /* HomePage.swift */; };
+		8E6246C12762011C00F89044 /* study1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6246C02762011C00F89044 /* study1.swift */; };
+		8E6246C42762086800F89044 /* UILabel+ST_Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6246C32762086800F89044 /* UILabel+ST_Create.swift */; };
 		8E6DC924274244D00003AC49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DC923274244D00003AC49 /* AppDelegate.swift */; };
 		8E6DC926274244D00003AC49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DC925274244D00003AC49 /* SceneDelegate.swift */; };
 		8E6DC928274244D00003AC49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DC927274244D00003AC49 /* ViewController.swift */; };
 		8E6DC92B274244D00003AC49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E6DC929274244D00003AC49 /* Main.storyboard */; };
 		8E6DC92D274244D60003AC49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E6DC92C274244D60003AC49 /* Assets.xcassets */; };
 		8E6DC930274244D60003AC49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E6DC92E274244D60003AC49 /* LaunchScreen.storyboard */; };
+		8E6DC939274249890003AC49 /* Currying柯里化.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DC938274249890003AC49 /* Currying柯里化.swift */; };
+		EA52199E290A391547DC519A /* Pods_STPrivateSpace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E277A3D07D4E9FEEE8639AD /* Pods_STPrivateSpace.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E277A3D07D4E9FEEE8639AD /* Pods_STPrivateSpace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STPrivateSpace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E60D82D276C722E006B0C67 /* study3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = study3.swift; sourceTree = "<group>"; };
+		8E61E85027671DA8008E567D /* study2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = study2.swift; sourceTree = "<group>"; };
+		8E6246B52761DE5500F89044 /* CurryingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurryingVC.swift; sourceTree = "<group>"; };
+		8E6246B82761DF5D00F89044 /* STProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STProtocols.swift; sourceTree = "<group>"; };
+		8E6246BA2761E9DD00F89044 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		8E6246BC2761EF0100F89044 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		8E6246C02762011C00F89044 /* study1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = study1.swift; sourceTree = "<group>"; };
+		8E6246C32762086800F89044 /* UILabel+ST_Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+ST_Create.swift"; sourceTree = "<group>"; };
 		8E6DC920274244D00003AC49 /* STPrivateSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STPrivateSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E6DC923274244D00003AC49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E6DC925274244D00003AC49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +43,9 @@
 		8E6DC92C274244D60003AC49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E6DC92F274244D60003AC49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E6DC931274244D60003AC49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E6DC938274249890003AC49 /* Currying柯里化.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Currying柯里化.swift"; sourceTree = "<group>"; };
+		ABFF3A37F5B0C8E031B492D7 /* Pods-STPrivateSpace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STPrivateSpace.release.xcconfig"; path = "Target Support Files/Pods-STPrivateSpace/Pods-STPrivateSpace.release.xcconfig"; sourceTree = "<group>"; };
+		CB07FDC152A4DFAE698AA035 /* Pods-STPrivateSpace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STPrivateSpace.debug.xcconfig"; path = "Target Support Files/Pods-STPrivateSpace/Pods-STPrivateSpace.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA52199E290A391547DC519A /* Pods_STPrivateSpace.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		796F49EE43A3ACF53C026B15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB07FDC152A4DFAE698AA035 /* Pods-STPrivateSpace.debug.xcconfig */,
+				ABFF3A37F5B0C8E031B492D7 /* Pods-STPrivateSpace.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8E60D82F276C726C006B0C67 /* RX_Font */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RX_Font;
+			sourceTree = "<group>";
+		};
+		8E6246B72761DF3600F89044 /* 构建协议 */ = {
+			isa = PBXGroup;
+			children = (
+				8E6246B82761DF5D00F89044 /* STProtocols.swift */,
+			);
+			path = "构建协议";
+			sourceTree = "<group>";
+		};
+		8E6246BE2761F63F00F89044 /* 初始化模板 */ = {
+			isa = PBXGroup;
+			children = (
+				8E6DC927274244D00003AC49 /* ViewController.swift */,
+				8E6246BA2761E9DD00F89044 /* View.swift */,
+			);
+			path = "初始化模板";
+			sourceTree = "<group>";
+		};
+		8E6246BF2762010700F89044 /* 课程 */ = {
+			isa = PBXGroup;
+			children = (
+				8E6246C02762011C00F89044 /* study1.swift */,
+				8E61E85027671DA8008E567D /* study2.swift */,
+				8E60D82D276C722E006B0C67 /* study3.swift */,
+			);
+			path = "课程";
+			sourceTree = "<group>";
+		};
+		8E6246C22762083C00F89044 /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+				8E6246C32762086800F89044 /* UILabel+ST_Create.swift */,
+			);
+			path = "分类";
+			sourceTree = "<group>";
+		};
 		8E6DC917274244D00003AC49 = {
 			isa = PBXGroup;
 			children = (
 				8E6DC922274244D00003AC49 /* STPrivateSpace */,
 				8E6DC921274244D00003AC49 /* Products */,
+				796F49EE43A3ACF53C026B15 /* Pods */,
+				B1640807AE5D491BC6020AEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +132,38 @@
 		8E6DC922274244D00003AC49 /* STPrivateSpace */ = {
 			isa = PBXGroup;
 			children = (
+				8E60D82F276C726C006B0C67 /* RX_Font */,
 				8E6DC923274244D00003AC49 /* AppDelegate.swift */,
 				8E6DC925274244D00003AC49 /* SceneDelegate.swift */,
-				8E6DC927274244D00003AC49 /* ViewController.swift */,
+				8E6246BC2761EF0100F89044 /* HomePage.swift */,
+				8E6246C22762083C00F89044 /* 分类 */,
+				8E6246BF2762010700F89044 /* 课程 */,
+				8E6246BE2761F63F00F89044 /* 初始化模板 */,
+				8E6246B72761DF3600F89044 /* 构建协议 */,
+				8E6DC937274249420003AC49 /* Grammar语法 */,
 				8E6DC929274244D00003AC49 /* Main.storyboard */,
 				8E6DC92C274244D60003AC49 /* Assets.xcassets */,
 				8E6DC92E274244D60003AC49 /* LaunchScreen.storyboard */,
 				8E6DC931274244D60003AC49 /* Info.plist */,
 			);
 			path = STPrivateSpace;
+			sourceTree = "<group>";
+		};
+		8E6DC937274249420003AC49 /* Grammar语法 */ = {
+			isa = PBXGroup;
+			children = (
+				8E6DC938274249890003AC49 /* Currying柯里化.swift */,
+				8E6246B52761DE5500F89044 /* CurryingVC.swift */,
+			);
+			path = "Grammar语法";
+			sourceTree = "<group>";
+		};
+		B1640807AE5D491BC6020AEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E277A3D07D4E9FEEE8639AD /* Pods_STPrivateSpace.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E6DC934274244D60003AC49 /* Build configuration list for PBXNativeTarget "STPrivateSpace" */;
 			buildPhases = (
+				058CA44FBD58DDB7F8CE35A9 /* [CP] Check Pods Manifest.lock */,
 				8E6DC91C274244D00003AC49 /* Sources */,
 				8E6DC91D274244D00003AC49 /* Frameworks */,
 				8E6DC91E274244D00003AC49 /* Resources */,
+				9E5DC6F8465D30974EA3A423 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +234,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		058CA44FBD58DDB7F8CE35A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-STPrivateSpace-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E5DC6F8465D30974EA3A423 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-STPrivateSpace/Pods-STPrivateSpace-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-STPrivateSpace/Pods-STPrivateSpace-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-STPrivateSpace/Pods-STPrivateSpace-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8E6DC91C274244D00003AC49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E61E85127671DA8008E567D /* study2.swift in Sources */,
+				8E6DC939274249890003AC49 /* Currying柯里化.swift in Sources */,
 				8E6DC928274244D00003AC49 /* ViewController.swift in Sources */,
+				8E60D82E276C722E006B0C67 /* study3.swift in Sources */,
+				8E6246B92761DF5D00F89044 /* STProtocols.swift in Sources */,
 				8E6DC924274244D00003AC49 /* AppDelegate.swift in Sources */,
+				8E6246B62761DE5500F89044 /* CurryingVC.swift in Sources */,
+				8E6246BB2761E9DD00F89044 /* View.swift in Sources */,
 				8E6DC926274244D00003AC49 /* SceneDelegate.swift in Sources */,
+				8E6246BD2761EF0100F89044 /* HomePage.swift in Sources */,
+				8E6246C42762086800F89044 /* UILabel+ST_Create.swift in Sources */,
+				8E6246C12762011C00F89044 /* study1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +436,7 @@
 		};
 		8E6DC935274244D60003AC49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB07FDC152A4DFAE698AA035 /* Pods-STPrivateSpace.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +465,7 @@
 		};
 		8E6DC936274244D60003AC49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABFF3A37F5B0C8E031B492D7 /* Pods-STPrivateSpace.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
