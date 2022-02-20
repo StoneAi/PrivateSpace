@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E5B71D227C479FA008C399C /* UIButton+ST_Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B71D127C479FA008C399C /* UIButton+ST_Create.swift */; };
 		8E60D82E276C722E006B0C67 /* study3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E60D82D276C722E006B0C67 /* study3.swift */; };
 		8E61E85127671DA8008E567D /* study2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E61E85027671DA8008E567D /* study2.swift */; };
 		8E6246B62761DE5500F89044 /* CurryingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6246B52761DE5500F89044 /* CurryingVC.swift */; };
@@ -15,6 +16,7 @@
 		8E6246BD2761EF0100F89044 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6246BC2761EF0100F89044 /* HomePage.swift */; };
 		8E6246C12762011C00F89044 /* study1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6246C02762011C00F89044 /* study1.swift */; };
 		8E6246C42762086800F89044 /* UILabel+ST_Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6246C32762086800F89044 /* UILabel+ST_Create.swift */; };
+		8E6A27CF27C4806B00BC4EAB /* study7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6A27CE27C4806B00BC4EAB /* study7.swift */; };
 		8E6DC924274244D00003AC49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DC923274244D00003AC49 /* AppDelegate.swift */; };
 		8E6DC926274244D00003AC49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DC925274244D00003AC49 /* SceneDelegate.swift */; };
 		8E6DC928274244D00003AC49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DC927274244D00003AC49 /* ViewController.swift */; };
@@ -31,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		8E277A3D07D4E9FEEE8639AD /* Pods_STPrivateSpace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STPrivateSpace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5B71D127C479FA008C399C /* UIButton+ST_Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+ST_Create.swift"; sourceTree = "<group>"; };
 		8E60D82D276C722E006B0C67 /* study3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = study3.swift; sourceTree = "<group>"; };
 		8E61E85027671DA8008E567D /* study2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = study2.swift; sourceTree = "<group>"; };
 		8E6246B52761DE5500F89044 /* CurryingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurryingVC.swift; sourceTree = "<group>"; };
@@ -39,6 +42,7 @@
 		8E6246BC2761EF0100F89044 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		8E6246C02762011C00F89044 /* study1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = study1.swift; sourceTree = "<group>"; };
 		8E6246C32762086800F89044 /* UILabel+ST_Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+ST_Create.swift"; sourceTree = "<group>"; };
+		8E6A27CE27C4806B00BC4EAB /* study7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = study7.swift; sourceTree = "<group>"; };
 		8E6DC920274244D00003AC49 /* STPrivateSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STPrivateSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E6DC923274244D00003AC49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E6DC925274244D00003AC49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +114,7 @@
 				8E7AD29C27B387170043DEAF /* study4.swift */,
 				8E8250FE27BF90E600C9D6BF /* study5.swift */,
 				8EEA3FB627C358170058BF79 /* study6.swift */,
+				8E6A27CE27C4806B00BC4EAB /* study7.swift */,
 			);
 			path = "课程";
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				8E6246C32762086800F89044 /* UILabel+ST_Create.swift */,
+				8E5B71D127C479FA008C399C /* UIButton+ST_Create.swift */,
 			);
 			path = "分类";
 			sourceTree = "<group>";
@@ -297,6 +303,7 @@
 				8E6DC939274249890003AC49 /* Currying柯里化.swift in Sources */,
 				8E6DC928274244D00003AC49 /* ViewController.swift in Sources */,
 				8E60D82E276C722E006B0C67 /* study3.swift in Sources */,
+				8E5B71D227C479FA008C399C /* UIButton+ST_Create.swift in Sources */,
 				8E6246B92761DF5D00F89044 /* STProtocols.swift in Sources */,
 				8E6DC924274244D00003AC49 /* AppDelegate.swift in Sources */,
 				8EEA3FB727C358180058BF79 /* study6.swift in Sources */,
@@ -307,6 +314,7 @@
 				8E6246BD2761EF0100F89044 /* HomePage.swift in Sources */,
 				8E6246C42762086800F89044 /* UILabel+ST_Create.swift in Sources */,
 				8E7AD29D27B387170043DEAF /* study4.swift in Sources */,
+				8E6A27CF27C4806B00BC4EAB /* study7.swift in Sources */,
 				8E6246C12762011C00F89044 /* study1.swift in Sources */,
 				8E8250FF27BF90E600C9D6BF /* study5.swift in Sources */,
 			);

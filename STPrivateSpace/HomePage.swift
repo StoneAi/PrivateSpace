@@ -43,7 +43,7 @@ class HomePage: UIViewController {
     
     //MARK: - 属性
     
-    let titles = ["柯里化","第一课","第二课","第三课","第四课","第五课","第六课"]
+    let titles = ["柯里化","第一课","第二课","第三课","第四课","第五课","第六课","第七课"]
     
     
     //MARK: - 懒加载

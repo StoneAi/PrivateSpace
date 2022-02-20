@@ -15,7 +15,7 @@ import UIKit
     声明相关的关键字  class struct enum extension deinit func import init let var protocol static subscript typealias
     与语句有关的关键字  break case continue default do else if in for return switch where while fallthrough defer
     与表达式有关的关键字 as dynamicType is new super self Type
-    特定上下文中使用的关键字  associactivity didSet get infifx inout left mutating none nonmutating operator override postfix precedence prefix rightset unowned unowned(safe) unowned(unsafe) weak  willSet
+    特定上下文中使用的关键字  associactivity didSet get infix inout left mutating none nonmutating operator override postfix precedence prefix rightset unowned unowned(safe) unowned(unsafe) weak  willSet
  
     以#开头的关键字 #availabel  #colorLiteral #column #else #elseif #endif #file #fileReference #function #if #imageLiteral #line #selector #sourceLocation
  
