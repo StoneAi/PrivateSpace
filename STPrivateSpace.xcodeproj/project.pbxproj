@@ -22,6 +22,10 @@
 		8E6DC92D274244D60003AC49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E6DC92C274244D60003AC49 /* Assets.xcassets */; };
 		8E6DC930274244D60003AC49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E6DC92E274244D60003AC49 /* LaunchScreen.storyboard */; };
 		8E6DC939274249890003AC49 /* Currying柯里化.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DC938274249890003AC49 /* Currying柯里化.swift */; };
+		8E7AD29D27B387170043DEAF /* study4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7AD29C27B387170043DEAF /* study4.swift */; };
+		8E8250FF27BF90E600C9D6BF /* study5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8250FE27BF90E600C9D6BF /* study5.swift */; };
+		8EEA3FB727C358180058BF79 /* study6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEA3FB627C358170058BF79 /* study6.swift */; };
+		8EEADD6C27B9FA140038AE9F /* MacroConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEADD6B27B9FA140038AE9F /* MacroConfig.swift */; };
 		EA52199E290A391547DC519A /* Pods_STPrivateSpace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E277A3D07D4E9FEEE8639AD /* Pods_STPrivateSpace.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +48,10 @@
 		8E6DC92F274244D60003AC49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E6DC931274244D60003AC49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E6DC938274249890003AC49 /* Currying柯里化.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Currying柯里化.swift"; sourceTree = "<group>"; };
+		8E7AD29C27B387170043DEAF /* study4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = study4.swift; sourceTree = "<group>"; };
+		8E8250FE27BF90E600C9D6BF /* study5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = study5.swift; sourceTree = "<group>"; };
+		8EEA3FB627C358170058BF79 /* study6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = study6.swift; sourceTree = "<group>"; };
+		8EEADD6B27B9FA140038AE9F /* MacroConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroConfig.swift; sourceTree = "<group>"; };
 		ABFF3A37F5B0C8E031B492D7 /* Pods-STPrivateSpace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STPrivateSpace.release.xcconfig"; path = "Target Support Files/Pods-STPrivateSpace/Pods-STPrivateSpace.release.xcconfig"; sourceTree = "<group>"; };
 		CB07FDC152A4DFAE698AA035 /* Pods-STPrivateSpace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STPrivateSpace.debug.xcconfig"; path = "Target Support Files/Pods-STPrivateSpace/Pods-STPrivateSpace.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +107,9 @@
 				8E6246C02762011C00F89044 /* study1.swift */,
 				8E61E85027671DA8008E567D /* study2.swift */,
 				8E60D82D276C722E006B0C67 /* study3.swift */,
+				8E7AD29C27B387170043DEAF /* study4.swift */,
+				8E8250FE27BF90E600C9D6BF /* study5.swift */,
+				8EEA3FB627C358170058BF79 /* study6.swift */,
 			);
 			path = "课程";
 			sourceTree = "<group>";
@@ -132,6 +143,7 @@
 		8E6DC922274244D00003AC49 /* STPrivateSpace */ = {
 			isa = PBXGroup;
 			children = (
+				8EEADD6B27B9FA140038AE9F /* MacroConfig.swift */,
 				8E60D82F276C726C006B0C67 /* RX_Font */,
 				8E6DC923274244D00003AC49 /* AppDelegate.swift */,
 				8E6DC925274244D00003AC49 /* SceneDelegate.swift */,
@@ -287,12 +299,16 @@
 				8E60D82E276C722E006B0C67 /* study3.swift in Sources */,
 				8E6246B92761DF5D00F89044 /* STProtocols.swift in Sources */,
 				8E6DC924274244D00003AC49 /* AppDelegate.swift in Sources */,
+				8EEA3FB727C358180058BF79 /* study6.swift in Sources */,
 				8E6246B62761DE5500F89044 /* CurryingVC.swift in Sources */,
 				8E6246BB2761E9DD00F89044 /* View.swift in Sources */,
+				8EEADD6C27B9FA140038AE9F /* MacroConfig.swift in Sources */,
 				8E6DC926274244D00003AC49 /* SceneDelegate.swift in Sources */,
 				8E6246BD2761EF0100F89044 /* HomePage.swift in Sources */,
 				8E6246C42762086800F89044 /* UILabel+ST_Create.swift in Sources */,
+				8E7AD29D27B387170043DEAF /* study4.swift in Sources */,
 				8E6246C12762011C00F89044 /* study1.swift in Sources */,
+				8E8250FF27BF90E600C9D6BF /* study5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
